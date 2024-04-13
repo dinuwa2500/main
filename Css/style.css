@@ -1,1 +1,283 @@
+*{
 
+
+margin: 0;
+padding: 0;
+
+}
+
+main{
+
+min-height:1080px;
+
+}
+html{
+
+  min-height: 100%;
+}
+
+body{
+
+  margin: 0px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
+  min-height: 100vh;
+  
+}
+
+.header{
+
+
+  height: 100px;
+  width: 100%;
+
+}
+
+.logo{
+
+
+  height: 100%;
+  width:120px;
+  float: left;
+  
+
+}
+
+
+.navbar{
+
+ 
+padding-left: 150px;
+padding-top: -200px;
+  
+}
+.logofot{
+
+ height: 235px;
+ z-index: 999;
+ background-color: transparent;
+
+}
+.top{
+
+  background-color: lightgray;
+  height: 100px;
+  width: 100%;
+ border: 1px solid black;
+
+}
+
+ul {
+  margin-top: -82px;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+.footer-logo{
+
+position: relative;
+bottom: 0;
+width: 70px;
+height: 70px;
+
+}
+
+.footer{
+
+
+  width: 100%;
+  bottom: 0;
+  position: relative;
+  background-color: red;
+  height: 203px;
+}
+
+
+
+.footer-links {
+  width: 100%;
+  bottom: -133px;
+  position: relative;
+  background-color: blue;
+  height: 50px;
+  display: inline-block;
+}
+
+.footer-logo{
+
+position: relative;
+  bottom: 0;
+  width: 100px;
+  height: 70px;
+  left: 40px;
+  top: 10px;
+}
+
+.motto{
+
+  width: 9%;
+  left: 24px;
+  position: relative;
+  top: 31px;
+
+
+}
+
+.social-icons{
+
+  display: inline-block;
+  height: 0;
+  top: 81px;
+  position: relative;
+  left: 23px;
+
+}
+
+.footer-det{
+
+  height: 0;
+}
+
+.phone{
+
+  width: 40px;
+  left: 650;
+  position: relative;
+  top: -54px;
+
+
+}
+
+#phone{
+
+  position: relative;
+  left: 724px;
+  top: -90px;
+  height: 0;
+
+}
+
+.mail{
+
+  width: 40px;
+  left: 1200;
+  position: relative;
+  top: -99px;
+}
+
+
+#mail{
+
+  left: 1279px;
+  position: relative;
+  top: -133px;
+  height: 0;
+
+}
+
+.location{
+
+  width: 40px;
+  left: 650px;
+  position: relative;
+  bottom: 34px;
+
+}
+
+#location{
+
+  left: 718px;
+  position: relative;
+  z-index: 1;
+  bottom: 63px;
+  height: 0;
+}
+
+
+.clock{
+
+  width: 40px;
+  left: 1200px;
+  position: relative;
+  bottom: 71px;
+}
+
+#clock{
+
+  left: 1275px;
+  position: relative;
+  bottom: 102px;
+  height: 0;
+ 
+
+
+}
+
+.num {
+
+  width: 8%;
+  height: 0;
+  position: relative;
+  left: 720px;
+  bottom: 12px;
+
+}
+
+.loc{
+
+  width: 214px;
+  height: 0;
+  position: relative;
+  left: 717px;
+  top: 98px;
+
+}
+
+.wu{
+
+  height: 0;
+  position: relative;
+  left: 1275px;
+  bottom: 20px;
+
+}
+
+.hrs{
+
+  height: 0;
+  left: 1284px;
+  position: relative;
+  top: 100px;
+
+
+}
+
+.footer-links a{
+
+  padding: 0 0 0 215px;
+  color: #000000;
+  position: relative;
+  top: 16px;
+
+}
