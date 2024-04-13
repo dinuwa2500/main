@@ -69,10 +69,10 @@ class bottomfooter extends HTMLElement{
                 <p>Mon - Sat: 9AM - 5PM</p>\
             </div>\
             <div class = "footer-links">\
-                <a href="./footer/contactus.html" >Contact-Us</a>\
-                <a href="./footer/privacy.html" >Privacy Policy</a>\
-                <a href="./footer/terms.html" >Terms & Conditions</a>\
-                <a href="./footer/reviews.html" >Reviews</a>\
+                <a href="contactus.html" >Contact-Us</a>\
+                <a href="privacy.html" >Privacy Policy</a>\
+                <a href="terms.html" >Terms & Conditions</a>\
+                <a href="reviews.html" >Reviews</a>\
             </div>\
             </div>\
     </footer>';
