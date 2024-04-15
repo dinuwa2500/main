@@ -6,7 +6,7 @@ class topheader extends HTMLElement{
         <header>\
         <div class="top">\
         <div class="header" >\
-        <img src="#" alt="logo" class="logo">\
+        <img src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/6e61b/MainAfter.avif" alt="logo" class="logo">\
         </div>\
         <div class="navbar">\
             <ul>\
@@ -15,8 +15,8 @@ class topheader extends HTMLElement{
                 <li><a href="#pricing">Pricing</a></li>\
                 <li><a href="#booking">Booking</a></li>\
                 <li><a href="#abouus">About-us</a></li>\
-                <li style="float:right"><a class="active" href="/signup.html" >Register</a></li>\
-                <li style="float:right"><a class="active" href="#about">Login</a></li>\
+                <li style="float:right"><a class="active" href="./signup.html" >Register</a></li>\
+                <li style="float:right"><a class="active" href="./login.html">Login</a></li>\
               </ul> \
         </div>\
         </div>\
@@ -83,4 +83,3 @@ class bottomfooter extends HTMLElement{
 
 customElements.define('top-header',topheader);
 customElements.define('bottom-footer',bottomfooter);
-
