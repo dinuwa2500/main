@@ -10,7 +10,7 @@ class topheader extends HTMLElement{
         </div>\
         <div class="navbar">\
             <ul>\
-                <li><a href="/index.html">Home</a></li>\
+                <li><a href="./index.html">Home</a></li>\
                 <li><a href="#events">Events</a></li>\
                 <li><a href="#pricing">Pricing</a></li>\
                 <li><a href="#booking">Booking</a></li>\
