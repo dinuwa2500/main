@@ -1,0 +1,89 @@
+.loginbg .loginimg{
+
+    width: 120px;
+    height: 90px;
+    left: 166px;
+    position: relative;
+    z-index: 1;
+    top: 45px;
+   
+
+}
+.signup-details .loginbg{
+
+    background-color: red;
+    position: relative;
+    width: 434px;
+    right: 154px;
+    height: 650px;
+    top: 111px;
+    border-radius: 6px;
+}
+
+.loginbg #loginusername{
+
+    position: relative;
+    top: 107px;
+    left: 38px;
+
+}
+
+#usernamelabel{
+
+    position: relative;
+    top: 99px;
+    right: 88px;
+}
+
+.formlogin{
+
+    position: relative;
+    
+
+}
+
+
+#pswlabel
+{
+
+    position: relative;
+    top: 101px;
+    left: 40px;
+
+}
+
+#loginpsw{
+
+    position: relative;
+    top: 108px;
+    left: 37px;
+    
+}
+
+#loginbtn {
+
+  display: block;
+  margin: 10px;
+  width: 150px;
+  height: 50px;
+  border-radius: 7px;
+  text-align: center;
+  left: 135px;
+  position: relative;
+  overflow: hidden;
+  top: 115px;
+
+}
+ /*#loginbtn1{
+    display: block;
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 7px;
+    text-align: center;
+    left: 135px;
+    position: relative;
+    overflow: hidden;
+    top: 115px;
+
+}*/

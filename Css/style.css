@@ -26,6 +26,17 @@ body{
   
 }
 
+.navbar .active{
+
+  border: 2px solid white;
+  margin: 5px;
+  border-radius: 4px;
+  outline: none;
+  margin-left: auto;
+  margin-top: auto;
+  margin-right: auto;
+
+}
 .header{
 
 
@@ -76,11 +87,14 @@ ul {
   background-color: #333;
 }
 
-li {
+.navbar li {
   float: left;
+  padding: 5px;
+  top: 5px;
+  position: relative;
 }
 
-li a {
+.navbar li a {
   display: block;
   color: white;
   text-align: center;
@@ -89,8 +103,9 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+.navbar li a:hover {
   background-color: #111;
+  border-radius: 5px;
 }
 
 
