@@ -2,10 +2,11 @@
 
 <html>
 <head>
-
+<title>Sign Up</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
  
 <link rel="stylesheet" href="Css/style.css">
+<link rel="stylesheet" href="Css/signup.css">
 <script src="JS/Script.js"></script>
 
 </head>
@@ -16,23 +17,31 @@
 <top-header></top-header>
 
 <main>
-    <div class="images">
-    
-        <br>
-    <img src ="#" width ="150px" height = "100px" >
-    <br>
-    <img src ="#" width ="150px" height = "100px">  <br>
-    <img src ="#" width ="150px" height = "100px">  <br>
-    <img src ="#" width ="150px" height = "100px">  <br>
-    <img src ="#" width ="150px" height = "100px">  <br>
-    <img src ="#" width ="150px" height = "100px">  <br>
-    <img src ="#" width ="150px" height = "100px">  <br>
-    <img src ="#" width ="150px" height = "100px">  <br>
-    <img src ="#" width ="150px" height = "100px">  <br>
-    <img src ="#" width ="150px" height = "100px">  <br>
-    <img src ="#" width ="150px" height = "100px">  <br>
-   
-</div>
+        <div class="mainbox">
+        <img src="./bg/signupbg.jpg" alt="" class="bgimage">
+        <div class="signup-details">
+            <p id="headsec">Sign Up</p><br><br>
+            <form action="/action_page.php" id="signup">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="pno">Phone Number:</label><br>
+                <input type="text" id="pno" name="lname"><br><br>
+                <label for="email">Email Addres:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="pwd">Password:</label><br>
+                <input type="password" id="pwd" name="pwd"> <br><br>
+                <label for="rwd">Repeat Password:</label><br>
+                <input type="password" id="rwd" name="pwd"> <br><br>
+                <input type="checkbox" id = "check">    I confirm that the above informations are correct<br><br>
+                <p id = "checkboxmsg" style="display: none;">Please click the checkbox</p><br>
+                <button type="button" class = "sbutton">Sign Up</button><br> 
+                <button type="button" class="sbutton">Login</button> 
+
+              </form>
+        </div>
+    </div>
 </main>
 
 
