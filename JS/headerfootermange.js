@@ -12,7 +12,7 @@ class topheader extends HTMLElement{
             <ul>\
                 <li><a href="./index.html">Home</a></li>\
                 <li><a href="#events">Events</a></li>\
-                <li><a href="#pricing">Pricing</a></li>\
+                <li><a href="./pricing.html">Pricing</a></li>\
                 <li><a href="#booking">Booking</a></li>\
                 <li><a href="#abouus">About-us</a></li>\
                 <li style="float:right"><a class="active" href="./signup.html" >Register</a></li>\
