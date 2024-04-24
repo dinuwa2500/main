@@ -1,0 +1,218 @@
+body{
+
+    background: linear-gradient(90deg, #2ecc71 60%, #27ae60 40.1%);
+
+}
+
+.phbody{
+    
+  background-color: #ccc;
+  width: 84%;
+  height: 100%;
+  position: relative;
+  left: 150px;
+  top: 100px;
+  border-radius: 6px;
+  scale: 0.9;
+  border: 1px solid black;
+
+    
+
+}
+#pricingheader
+{
+
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    top: 10px;
+    font-weight: 600;
+}
+
+.pcklite,.pcksilver,.pckstandard{
+
+    display: inline-block;
+  background-color: white;
+  height: 382px;
+  border-radius: 6px;
+  position: relative;
+  left: 50px;
+  width: 300px;
+  top: 10px;
+  overflow: hidden;
+  margin: 50px;
+}
+
+
+
+#pckinfo{
+
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 2em;
+    background-color: #9e9d24;
+    height: 60px;
+    padding-top: 5px;
+
+}
+.pricebg{
+
+    display: block;
+    width: 100%;
+    font-size: 1.2em;
+    background-color: #9e9d24;
+    height: 70px;
+    opacity: 0.6;
+    
+   
+
+
+}
+
+#pricers{
+
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: 650;
+}
+
+.pcksilver #pckinfo{
+
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 2em;
+    background-color: #18937b;
+    height: 60px;
+    padding-top: 5px;
+
+}
+
+.pcksilver .pricebg{
+    
+    display: block;
+    width: 100%;
+    font-size: 1.2em;
+    background-color: #18937b;
+    height: 70px;
+    opacity: 0.6;
+}
+
+.pckstandard #pckinfo{
+
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 2em;
+    background-color: #d81b60;
+    height: 60px;
+    padding-top: 5px;
+
+}
+
+.pckstandard .pricebg{
+    
+    display: block;
+    width: 100%;
+    font-size: 1.2em;
+    background-color: #d81b60;
+    height: 70px;
+    opacity: 0.6;
+}
+
+
+.gw-body{
+
+    position: relative;
+    top: 97px;
+    height: 665%;
+    top: 96px;
+    
+   
+
+}
+
+.informations{
+
+
+    text-align: center;
+  font-weight: bold;
+  background-color: #9e9d24;
+  display: block;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 50px;
+  padding-top: 10px;
+}
+
+.pcksilver .informations{
+
+    background-color: #18937b;
+
+
+}
+
+
+.pckstandard .informations{
+
+    background-color: #d81b60;
+
+
+}
+
+.moredetails{
+
+    height: 100%;
+}
+
+
+.booknow1{
+
+    display: inline-block;
+  margin: 10px;
+  width: 150px;
+  height: 50px;
+  border-radius: 7px;
+  text-align: center;
+  left: 160px;
+  position: relative;
+  overflow: hidden;
+  top: -3px;
+
+}
+
+.booknow2{
+
+    display: inline-block;
+  margin: 10px;
+  width: 150px;
+  height: 50px;
+  border-radius: 7px;
+  text-align: center;
+  left: 395px;
+  position: relative;
+  overflow: hidden;
+  top: -3px;;
+
+}
+
+.booknow3{
+
+    display: inline-block;
+  margin: 10px;
+  width: 150px;
+  height: 50px;
+  border-radius: 7px;
+  text-align: center;
+  left: 625px;
+  position: relative;
+  overflow: hidden;
+  top: -3px;
+
+}
